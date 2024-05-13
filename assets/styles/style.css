@@ -101,3 +101,25 @@ main section#categories .container-grid-categories .card-categories img{
     height: 150px;
     width: 150px;
 }
+
+/* Section products*/
+
+main section#products {
+    text-align: center;
+}
+
+main section#products .container-grid-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+main section#products .container-grid-products .card-product{
+    padding: 20px;
+}
+
+main section#products .container-grid-products .card-product img{
+    height: 150px;
+    width: 150px;
+}
