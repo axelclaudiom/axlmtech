@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-title);
 }
 
 :root {
@@ -10,6 +10,21 @@
     --other-color: #0E2859;
     --other1-color: #CE6C37;
     --other2-color: #c3b692;
+    --font-text: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --font-titles: Arial, Helvetica, sans-serif;
+}
+
+/* Set fonts for titles*/
+h1{
+    font-family: var(--font-titles);
+}
+
+h2{
+    font-family: var(--font-titles);
+}
+
+h3{
+    font-family: var(--font-titles);
 }
 
 header {
