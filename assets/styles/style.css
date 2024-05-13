@@ -71,6 +71,10 @@ header nav ul li a:hover {
     color: var(--other1-color);
 }
 
+/* section{
+    min-height: 100vh;
+} */
+
 /* Section presentation */
 main section#presentation {
     margin: 50px;
@@ -123,3 +127,60 @@ main section#products .container-grid-products .card-product img{
     height: 150px;
     width: 150px;
 }
+
+/* Section formcontact*/
+
+main section#formcontact {
+    margin: 150px;
+    text-align: center;
+  }
+  
+  form {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #F9F9F9;*/
+    border-radius: 5px;
+    padding: 10px;
+/*    height: auto;
+    width: 400px; */
+  }
+  
+  form label {
+    display: flex;
+    margin-left: 120px;
+  }
+  
+  form input {
+    margin-top: 3px;
+    margin-bottom: 2px; /* separacion entre input y label */
+    width: 390px;
+    border-radius: 3px;
+    border: 1.5px  groove;
+    /*border-style:ridge;*/ 
+    height: 25px;
+  }
+  
+  form h2 {
+    margin-left: 1%;
+    padding: 3%;
+  }
+  
+  form textarea {
+    width: 390px;
+    border-radius: 3px;
+    border: 1.5px  groove;
+  }
+  
+  form button {
+    background-color: var(--other-color);
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 80px;
+    color: var(--secondary-color);
+  }
+
+  form button:hover {
+    background-color: var(--primary-color);
+  }
