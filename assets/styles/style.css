@@ -71,7 +71,7 @@ header nav ul li a:hover {
     color: var(--other1-color);
 }
 
-/* Section de presentacion */
+/* Section presentation */
 main section#presentation {
     margin: 50px;
     display: flex;
@@ -82,4 +82,22 @@ main section#presentation {
 main section#presentation img {
     height: 250px;
     width: 280px;
+}
+
+/* Section Categories*/
+main section#categories .container-grid-categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+main section#categories .container-grid-categories .card-categories {
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+main section#categories .container-grid-categories .card-categories img{
+    height: 150px;
+    width: 150px;
 }
