@@ -1,2 +1,2 @@
 # axlmtech
-This projects is a landing page for electronic store products
+This project is a landing page for electronic store products
