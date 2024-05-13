@@ -210,6 +210,28 @@ main section#formcontact {
     background-color: var(--primary-color);
   }
 
+/* Whatsapp Button */
+
+#whatsapp {
+    position: fixed;
+    bottom: 60px;
+    right:80px;
+    z-index: 1;
+ }
+
+ svg {
+    width: 80px;
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.4));
+ }
+
+ circle {
+    fill: #25d366;
+ }
+ path {
+    fill: #fff;
+ }
+
+  /* Footer */
 
   footer {
     display: flex;
