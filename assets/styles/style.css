@@ -22,6 +22,8 @@ header {
     justify-content: space-between;
     
 }
+
+/* LOGO*/
 header .logo {
     position: relative;
     /* top: -15px; */
@@ -47,6 +49,8 @@ header .logo p {
     -webkit-text-stroke: 0.5px black;
 }
 
+/* NAV */
+
 header nav {
     /* background-color: blue; */
     display: inline;
@@ -65,4 +69,17 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: var(--other1-color);
+}
+
+/* Section de presentacion */
+main section#presentation {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+main section#presentation img {
+    height: 250px;
+    width: 280px;
 }
